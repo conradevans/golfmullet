@@ -1,0 +1,344 @@
+.p-image-men {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 16px 0px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  left: 3.5%;
+}
+.p-image-women {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 16px 0px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  left: 70%;
+}
+
+.golfingimage-left {
+  width: 47.1%;
+  height: 550px;
+  float: left;
+  padding: 14px;
+}
+
+.golfingimage-right {
+  width: 47.1%;
+  height: 550px;
+  float: right;
+  padding: 14px;
+}
+
+.productslide {
+  float: left;
+  padding: 10px;
+}
+
+.p-title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.scroll-container {
+  overflow-x: auto;
+  background-color: white;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-container img {
+  padding: 10px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.p-heading {
+  position: absolute;
+  left: 5%;
+  top: 80%;
+  color: white;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #444;
+}
+
+.button-image-men {
+  position: absolute;
+  background-color: white;
+  padding: 10px 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  left: 85%;
+  top: 70%;
+}
+
+.button-image-women {
+  position: absolute;
+  background-color: white;
+  padding: 10px 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  left: 85%;
+  top: 80%;
+}
+
+.button-image-men:hover,
+.button-image-women:hover {
+  text-decoration: underline;
+  color: white;
+  background-color: black;
+}
+
+.topheader-container {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: black;
+}
+
+.left_image,
+.right_image {
+  display: flex;
+  gap: 10px;
+  width: 25;
+  height: 25;
+}
+
+.productlist {
+  float: left;
+  padding: 24px 40px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.featured {
+  float: left;
+  padding: 24px 40px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tops {
+  float: left;
+  padding: 24px 40px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottoms {
+  float: left;
+  padding: 24px 40px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.searchbar {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.top_header {
+  padding: 2px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom_header {
+  padding: 1px;
+  text-align: center;
+  color: black;
+  font-size: 9px;
+  font-family: Lucida Handwriting, cursive;
+}
+
+.link_header {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  background-color: white;
+}
+
+.tab_button {
+  background-color: inherit;
+  float: right;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+}
+
+.left-buttons,
+.right-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.center-title {
+  font-size: 24px;
+  font-family: "Lucida Handwriting", cursive;
+}
+
+.center-title a {
+  text-decoration: none;
+  color: black;
+}
+
+.tab_button,
+.tablinks {
+  padding: 10px 16px;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.tab_button:hover,
+.tablinks:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+.tab_button:focus,
+.tablinks:focus {
+  outline: none;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}
